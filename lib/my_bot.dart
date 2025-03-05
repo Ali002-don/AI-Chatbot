@@ -25,7 +25,7 @@ class _MyBotScreenState extends State<MyBotScreen> {
     firstName: 'AI',
     profileImage: 'assets/ai.png',
   );
-
+  // Replace your APi key
   final ourUrl =
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyB3Suh4JpkE6pOKJ7CWvyC897uUDHDnQZE";
   final headers = {'Content-Type': 'application/json'};
